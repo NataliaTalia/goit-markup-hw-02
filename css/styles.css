@@ -118,6 +118,7 @@ ul {
 .title {
   color: var(--default-text-color);
   font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
@@ -208,8 +209,7 @@ ul {
 
 .address-title:hover,
 .address-title:focus {
-  color: #ffffff;
-  opacity: 60%;
+  color: var(--main-brand-color);
 }
 
 .address .address-title.tel {
@@ -218,6 +218,5 @@ ul {
 
 .address-title.tel:focus,
 .address-title.tel:hover {
-  color: #ffffff;
-  opacity: 100%;
+  color: var(--main-brand-color);
 }
